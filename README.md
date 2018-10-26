@@ -8,6 +8,8 @@ The first step towards developing a good understanding of linear algebra is to g
 
 ## Objectives
 
+You will be able to: 
+
 * Describe a system of linear equations for solving simple analytical problems.
 * Solve a system of equations using elimination and substitution. 
 * Understand the role of matrices and vectors for solving linear equations. 
@@ -73,7 +75,7 @@ OR
 
 So the price of an apple is 15 pence and price of banana is 5 pence. That was simple.
 
-### From equations to vectors and matrices
+## From equations to vectors and matrices
 
 Now, as your number of shopping trips increase, as well as the number of items you buy at each trip, the system of equations will become more complex and solving such system for individual price may become very expensive in terms of time and effort. In such cases, we expect a computer to find the solution for us. 
 
@@ -86,6 +88,6 @@ So we see that in order for an computational algorithm to solve this (and other 
 
 Solving these equations require knowledge around defining these vectors and matrices in a computational environment and of operations that can be performed on these entities to solve for unknown variables as we saw above. We shall look into this in upcoming lessons. 
 
-### Summary
+## Summary
 
 In this lesson, we learnt how a system of linear (simulatneous) equations can be solved using elimination and substitution, and also , how to covert these problems into matrices and vectors to be processed by computational algorithms. In next couple of lessons, we shall look at how to describe these entities in python and numpy and also how to perform arithmatic and other operations to solve such equations. 
