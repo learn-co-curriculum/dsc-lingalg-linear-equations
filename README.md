@@ -29,8 +29,8 @@ This is a system of three equations in the three variables x, y, z. A solution t
 
 ```
 x = 1
-y = -2
-z = -2
+y = -8/3
+z = -7/3
 ```
 
 Since it makes all three equations valid. The word "system" indicates that the equations are to be considered collectively, rather than individually.
@@ -51,7 +51,7 @@ In your next trip to the market, you buy 3 apples and 4 bananas, and the cost is
 
 These two equations (known as simultaneous equation) form a system that can be easily solved by hand for values of `a` and `b` i.e. price of a single apple and banana. 
 
-Let's try it quickly solve this system for individual prices using a series of eliminations and substitutions:
+Let's try it quickly and solve this system for individual prices using a series of eliminations and substitutions:
 
 Step 1 : Multiply Eq. 1 by 4
 
@@ -84,7 +84,7 @@ This example is simple linear algebra problem. The numbers 2, 1 from Eq. 1 and 3
 Using linear algebra , we can write this system of equations as shown below:
 ![](ss.png)
 
-So we see that in order for an computational algorithm to solve this (and other similar) problems, the data we have first needs to get converted into a set of matrix and vector objects as shown above. Machine learning involves building up such objects from the given data, understanding their relationships and how to process them for a given problem. 
+So we see, that in order for a computational algorithm to solve this (and other similar) problems, the data we have first needs to get converted into a set of matrix and vector objects as shown above. Machine learning involves building up such objects from the given data, understanding their relationships and how to process them for a given problem. 
 
 Solving these equations require knowledge around defining these vectors and matrices in a computational environment and of operations that can be performed on these entities to solve for unknown variables as we saw above. We shall look into this in upcoming lessons. 
 
