@@ -18,7 +18,7 @@ You will be able to:
 
 ## What are Linear Equations?
 
-In mathematics, a system of linear equations (or linear system) is a collection of two or more linear equations involving the same set of variables. For example, look at following equations.
+In mathematics, a system of linear equations (or linear system) is a collection of two or more linear equations involving the same set of variables. For example, look at the following equations.
 
 $$
 3x + 2y - z = 0 \\
@@ -42,15 +42,16 @@ A system of linear equations can always be expressed in a matrix form. Algebraic
 
 ### Example 
 
-Let's say you go to a market and buy 2 apples and 1 banana. For this you end up paying 35 pence. If you denote apples by $a$ and bananas  by $b$, the relationship between bought items bought and price paid can be written down as an equation - let's call it Eq. A:
+Let's say you go to a market and buy 2 apples and 1 banana. For this, you end up paying 35 pence. If you denote apples by $a$ and bananas by $b$, the relationship between bought items bought and the price paid can be written down as an equation - let's call it Eq. A
 
 $2a + b = 35$  - (Eq. A)
 
-In your next trip to the market, you buy 3 apples and 4 bananas, and the cost is 65 pence. Just like above, this can be written as Eq. B:
+On your next trip to the market, you buy 3 apples and 4 bananas, and the cost is 65 pence. Just like above, this can be written as Eq. B:
 
 $3a + 4b = 65$ - (Eq. B)
 
-These two equations (known as simultaneous equation) form a system that can easily be solved by hand for values of $a$ and $b$ i.e. price of a single apple and banana. 
+These two equations (known as a simultaneous equation) form a system that can easily be solved by hand for values of $a$ and $b$ i.e. price of a single apple and banana.
+ 
 
 Let's try it quickly and solve this system for individual prices using a series of eliminations and substitutions:
 
@@ -66,15 +67,16 @@ $5a = 75$ which leads to $a = 15$
 
 $30 + b = 35$ which leads to $b = 5$
 
-So the price of an apple is 15 pence and price of banana is 5 pence. That was simple.
+So the price of an apple is 15 pence and the price of the banana is 5 pence. That was simple.
 
 ## From equations to vectors and matrices
 
-Now, as your number of shopping trips increase, as well as the number of items you buy at each trip, the system of equations will become more complex and solving a system for individual price may become very expensive in terms of time and effort. In these cases, you can use a computer to find the solution. 
+Now, as your number of shopping trips increase, as well as the number of items you buy at each trip, the system of equations,  will become more complex and solving a system for individual price may become very expensive in terms of time and effort. In these cases, you can use a computer to find the solution.
 
-This example is a simple linear algebra problem. The numbers 2 and 1 from Eq. A and 3 and 4 from Eq. B  are **linear co-efficients** that relate **input variables** `a` and `b` to the known **output** 15 and 5.  
+This example is a simple linear algebra problem. The numbers 2 and 1 from Eq. A and 3 and 4 from Eq. B are linear coefficients that relate input variables a and b to the known output 15 and 5.
 
-Using linear algebra , we can write this system of equations as shown below:
+Using linear algebra, we can write this system of equations as shown below: 
+
 <img src="images/ss.png" width = "320">
 
 
@@ -84,4 +86,4 @@ Solving these equations requires knowledge around defining these vectors and mat
 
 ## Summary
 
-In this lesson, you learned how a system of linear (simultaneous) equations can be solved using elimination and substitution, and also , how to covert these problems into matrices and vectors to be processed by computational algorithms. In next couple of lessons, we'll look at how to describe these entities in python and numpy and also how to perform arithmetic and other operations to solve these types of equations. 
+In this lesson, you learned how a system of linear (simultaneous) equations can be solved using elimination and substitution, and also, how to covert these problems into matrices and vectors to be processed by computational algorithms. In the next couple of lessons, we'll look at how to describe these entities in python and numpy and also how to perform arithmetic and other operations to solve these types of equations.
