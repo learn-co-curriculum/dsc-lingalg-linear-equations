@@ -18,19 +18,15 @@ You will be able to:
 
 In mathematics, a system of linear equations (or linear system) is a collection of two or more linear equations involving the same set of variables. For example, look at the following equations: 
 
- <img src="https://render.githubusercontent.com/render/math?math=
-3x %2b 2y - z = 0 \\
-2x- 2y %2b 4z = -2 \\
--x %2b 0.5y - z = 0
-"> 
+- <img src="https://render.githubusercontent.com/render/math?math=3x %2b 2y - z = 0">
+- <img src="https://render.githubusercontent.com/render/math?math=2x- 2y %2b 4z = -2">
+- <img src="https://render.githubusercontent.com/render/math?math=-x %2b 0.5y - z = 0">
 
 This is a system of three equations in the three variables  <img src="https://render.githubusercontent.com/render/math?math=x"> ,  <img src="https://render.githubusercontent.com/render/math?math=y"> , and  <img src="https://render.githubusercontent.com/render/math?math=z"> . A solution to a linear system is an assignment of values to the variables in a way that *all the equations are simultaneously satisfied*. A solution to the system above is given by:
 
- <img src="https://render.githubusercontent.com/render/math?math=
-x = 1 \\
-y = -8/3 \\
-z = -7/3
-"> 
+- <img src="https://render.githubusercontent.com/render/math?math=x = 1">
+- <img src="https://render.githubusercontent.com/render/math?math=y = -8/3">
+- <img src="https://render.githubusercontent.com/render/math?math=z = -7/3">
 
 These values make all three equations valid. The word "system" indicates that the equations are to be considered collectively, rather than individually.
 
