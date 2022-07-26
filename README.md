@@ -1,4 +1,3 @@
-
 # Systems of Linear Equations 
 
 ## Introduction
@@ -19,19 +18,15 @@ You will be able to:
 
 In mathematics, a system of linear equations (or linear system) is a collection of two or more linear equations involving the same set of variables. For example, look at the following equations: 
 
-$$
-3x + 2y - z = 0 \\
-2x- 2y + 4z = -2 \\
--x + 0.5y - z = 0
-$$
+$$ 3x + 2y - z = 0 $$
+$$ 2x- 2y + 4z = -2 $$
+$$ -x + 0.5y - z = 0 $$
 
 This is a system of three equations in the three variables $x$, $y$, and $z$. A solution to a linear system is an assignment of values to the variables in a way that *all the equations are simultaneously satisfied*. A solution to the system above is given by:
 
-$$
-x = 1 \\
-y = -8/3 \\
-z = -7/3
-$$
+$$ x = 1 $$
+$$ y = -8/3 $$
+$$ z = -7/3 $$
 
 These values make all three equations valid. The word "system" indicates that the equations are to be considered collectively, rather than individually.
 
@@ -76,7 +71,7 @@ The above example is a classic linear algebra problem. The numbers 2 and 1 from 
 
 Using linear algebra, we can write this system of equations as shown below: 
 
-<img src="images/ss.png" width = "320">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-lingalg-linear-equations/master/images/ss.png" width = "320">
 
 
 You see that in order for a computational algorithm to solve this (and other similar) problems, we need to first convert the data we have into a set of matrix and vector objects. Machine learning involves building up these objects from the given data, understanding their relationships and how to process them for a particular problem. 
